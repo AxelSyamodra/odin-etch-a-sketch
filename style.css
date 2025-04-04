@@ -7,3 +7,21 @@
 * {
   margin: 0;
 }
+
+.container {
+  margin: auto;
+  margin-top: 5%;
+  display: flex;
+  flex-wrap: wrap; /* allows boxes to wrap to the next line */
+  width: 640px; /* 16 boxes x 40px each */
+  height: 640px; /* 16 rows x 40px each */
+  border: 2px solid #000;
+  box-sizing: content-box; /* to make the border "outside" */
+}
+
+.box {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ccc;
+  background-color: cornsilk;
+}
