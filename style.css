@@ -8,9 +8,27 @@
   margin: 0;
 }
 
+body {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1.25em;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 1rem;
+}
+
+button {
+  margin-bottom: 1.25em;
+  padding: 0.6em 1.25em;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
 .container {
-  margin: auto;
-  margin-top: 5%;
   display: flex;
   flex-wrap: wrap; /* allows boxes to wrap to the next line */
   width: 640px; /* 16 boxes x 40px each */
@@ -20,10 +38,7 @@
 }
 
 .box {
-  width: 40px;
-  height: 40px;
   border: 1px solid #ccc;
-  /* background-color: cornsilk; */
   transition: background-color 0.2s ease;
 }
 
